@@ -25,11 +25,17 @@ body {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   padding: 2rem;
   text-align: center;
+  position: relative;
+}
+.book img {
+  width: 100%; /* adjust as needed */
+  height: 200px;
+  object-fit: contain;
 }
 
 .book h2 {
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .book h4 {
@@ -39,10 +45,23 @@ body {
   color: #617d98
 }
 
-.book img {
-  width: 100%;
-  object-fit: cover;
-  margin: 0 auto;
+.book p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #617d98;
+}
+
+
+.number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: #fff;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: #c35600;
 }
 
 form {
