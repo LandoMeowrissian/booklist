@@ -64,6 +64,12 @@ body {
   background-color: #c35600;
 }
 
+h1 {
+  text-align: center;
+  margin-top: 4rem;
+  text-transform: capitalize;
+}
+
 form {
   margin-top: 2rem;
 }
